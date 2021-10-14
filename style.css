@@ -28,7 +28,8 @@ select {
   width: 40%;
 }
 .movie_info {
-  height: 4rem;
+  /* height: 6rem; */
+  min-height: 60px;
 }
 
 input {
@@ -37,3 +38,7 @@ input {
 button {
   width: 30%;
 }
+
+/* .movie_description {
+  font-size: 14px;
+} */
