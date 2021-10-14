@@ -30,6 +30,10 @@ movieSelector.addEventListener("change", (event) => {
   movieDescription.textContent = movie.description;
 });
 
+document.querySelector(
+  ".movie_info"
+).style.backgroundImage = `url('https://image.tmdb.org/t/p/w533_and_h300_bestv2/3cyjYtLWCBE1uvWINHFsFnE8LUK.jpg')`;
+
 //review submission
 document.querySelector("form").addEventListener("submit", (event) => {
   event.preventDefault();
