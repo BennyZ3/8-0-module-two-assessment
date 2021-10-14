@@ -28,11 +28,10 @@ movieSelector.addEventListener("change", (event) => {
   movieTitle.textContent = movie.title;
   movieYear.textContent = movie.release_date;
   movieDescription.textContent = movie.description;
+  document.querySelector(
+    "body"
+  ).style.backgroundImage = `url('${movie.image}')`;
 });
-
-document.querySelector(
-  ".movie_info"
-).style.backgroundImage = `url('https://image.tmdb.org/t/p/w533_and_h300_bestv2/3cyjYtLWCBE1uvWINHFsFnE8LUK.jpg')`;
 
 //review submission
 document.querySelector("form").addEventListener("submit", (event) => {
