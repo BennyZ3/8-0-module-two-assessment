@@ -11,12 +11,15 @@ header {
   text-align: center;
   background-color: skyblue;
 }
-
+.header_title {
+  width: 100%;
+}
 img {
   width: 100%;
 }
 
 main {
+  margin-top: 2.5%;
   margin-left: 5%;
 }
 
