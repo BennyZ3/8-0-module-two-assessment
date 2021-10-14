@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+      <div class="header_title">Ghibli Review App</div>
+    </header>
+    <main>
+      <form>
+        <select name="movie_selector" id="movie_selector">
+          <option value="">Select a Movie</option>
+        </select>
+        <div>
+          <h2 class="movie_title"></h2>
+          <p class="movie_year"></p>
+          <p class="movie_description"></p>
+        </div>
+        <label for="review_text">Your Review </label>
+        <input
+          type="text"
+          id="review_text"
+          name="review"
+          placeholder="review"
+        />
+        <button type="submit">Submit Review</button>
+      </form>
+      <ul class="review_list"></ul>
+    </main>
+  </body>
+</html>
